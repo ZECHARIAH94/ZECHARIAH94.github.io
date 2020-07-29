@@ -51,6 +51,18 @@ height: 85px;
 /*transition: 0.4s;
 padding: 90px 10px;*/
 }
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
 /*
 .navbar {
   overflow: hidden;
@@ -62,12 +74,13 @@ padding: 90px 10px;*/
   top: 0;
   z-index: 99;
 }
-*/
+
 .navbar a {
   float: left;
   text-align: center;
   padding: 12px;
   /*text-decoration: none;*/
+  /*
   font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;
@@ -88,6 +101,7 @@ padding: 90px 10px;*/
   background-color: #061340;
   color: #ffffff;
 }
+*/
 
 .collapse{
   float: right;
